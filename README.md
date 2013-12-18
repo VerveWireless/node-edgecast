@@ -81,13 +81,18 @@ From the Edgecast docs for ints to pass for MediaType:
 All methods return this in case you want to chain them in one call.
 
 CacheManagement.setBaseMediaPath(string);
+
 CacheManagement.purge({MediaPath: string, MediaType: number}, callback(err, data, req, res));
+
 CacheManagement.purge(string, callback(err, data, req, res)); //read with 24 char Id number
+
 CacheManagement.load({MediaPath: string, MediaType: number}, callback(err, data, req, res));
+
 
 ##Resources##
 
 API Documentaiton (HTML): https://my.edgecast.com/uploads/ubers/1/docs/en-US/webhelp/b/RESTAPIHelpCenter/default.htm
+
 API Documentation (PDF): https://my.edgecast.com/uploads/ubers/1/docs/en-US/Resources/b/EdgeCast_Web_Services_REST_API.pdf
 
 #Todo
