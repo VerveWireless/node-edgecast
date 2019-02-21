@@ -22,7 +22,7 @@
     "url": "https://github.com/sheknows/node-edgecast/issues"
   },
   "dependencies": {
-    "restify": "~4.0.3",
+    "restify": "^4.0.3",
     "string-format": "~0.5.0",
     "assert-plus": "~0.2.0",
     "underscore": "~1.8.3"
